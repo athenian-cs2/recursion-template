@@ -1,29 +1,24 @@
 public class MyMain {
-    // This method returns true/false if there 
-    // was a boat the specified coordinates. This
-    // method also prints out an appropriate message
-    public static boolean hit(boolean[][] board, int row, int col) { 
+    // This method adds up the values of all digits
+    // in x, recursively
+    public static int addDigits(int x) { 
+        // YOUR CODE HERE
+        return -1;
+    }
+
+
+    // This method checks if a String is a palindrome
+    // (e.g. "racecar", "madam"), recursively
+    public static boolean isPalindrome(String str) { 
         // YOUR CODE HERE
         return false;
     }
 
-
-    // Places a boat onto the board
-    // The top-left piece of the board is located at (row, col)
-    // The remaining pieces are placed in the direction given
-    // by the direction input
-    public static boolean[][] placeBoat(boolean[][] board, String direction, int boatLength, int row, int col) { 
+    // This method returns the orignal string reversed;
+    // this method should be written using recursion
+    public static String reverse(String str) { 
         // YOUR CODE HERE
-        return board;
-    }
-
-    // Returns true if the every row in the 2D array
-    // is in both alphabetical order and in order of 
-    // increasing length
-    // You may assume that all Strings are lowercase 
-    public static boolean inOrder(String[][] words) { 
-        // YOUR CODE HERE
-        return false;
+        return "";
     }
 
     public static void main(String[] args) {
